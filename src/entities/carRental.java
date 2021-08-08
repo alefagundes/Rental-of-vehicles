@@ -1,0 +1,66 @@
+package entities;
+
+import java.util.Date;
+
+public class carRental {
+	private Date start;
+	private Date finish;
+	
+	private Vehicle vehicle;
+	private Invoice invoice;
+	
+	public carRental() {
+	}
+
+	public carRental(Date start, Date finish, Vehicle vehicle) {
+		this.start = start;
+		this.finish = finish;
+		this.vehicle = vehicle;
+	}
+
+	public Date getStart() {
+		return start;
+	}
+
+	public void setStart(Date start) {
+		this.start = start;
+	}
+
+	public Date getFinish() {
+		return finish;
+	}
+
+	public void setFinish(Date finish) {
+		this.finish = finish;
+	}
+
+	public Vehicle getVehicle() {
+		return vehicle;
+	}
+
+	public void setVehicle(Vehicle vehicle) {
+		this.vehicle = vehicle;
+	}
+
+	public Invoice getInvoice() {
+		return invoice;
+	}
+
+	public void setInvoice(Invoice invoice) {
+		this.invoice = invoice;
+	}
+
+	public Date getFinish1() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Date getStart1() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+	
+}
+
